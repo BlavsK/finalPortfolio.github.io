@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom ToDo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/slide.js"></script>
+    <script src="js/todo.js"></script>
+</head>
+    <body>
+            <div class="custom-wrapper">
+         <div class="quantity-container">  
+             <p class="controls">Quantity</p>
+             <div class="Btn-Controls">
+                 <button class="control-button" onclick="decreaseQuantity();">-</button>
+                 <div id="quantity-level" class="quantity-level">
+                 </div>
+                 <button class="control-button" onclick="increaseQuantity();">+</button>
+             </div>
+        </div>
+        
+        
+        
+        <div id="dof-container" class="c_container">
+                <img src="assets/card.png" class="card-common">
+        </div>
+                <div class="blur">
+            <p class="controls">DOF Control</p>
+            
+            <div class="Btn-controls">
+                <button class="control-button" onclick="decreaseDepth();">-</button>
+                <div id="blur-level"></div>
+                <button class="control-button" onclick="increaseDepth();">+</button>
+            </div>
+        </div>
+                
+        </div>
+
+           
+    </body>
+</html>
